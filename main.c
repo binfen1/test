@@ -11,8 +11,8 @@ typedef struct kes
 
 void fun1(cn *a)
 {
-    printf("中国%d年后的",a->years);
-    printf("经济增长率是现在的%f倍",a->aes);
+    printf("中国%d年后的", a->years);
+    printf("经济增长率是现在的%.2f%%", a->aes * 100);
 }
 
 int main()
